@@ -1,0 +1,43 @@
+.head
+{   
+    border: 2px solid black; 
+    text-align: center;
+}
+.box
+{
+    height: 66vh;
+    padding: 50px;
+    margin-top: 30px;
+    display: flex;
+    border: 2px solid black;    
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+button{
+    
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.color-box {
+    margin-top: 100px; 
+    border: solid black 2px;
+    height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+.box2
+{
+    padding: 0;
+    margin: 0;
+    width: 120px;
+}
+button:hover
+{
+   cursor:pointer;
+   background-color: silver;
+}

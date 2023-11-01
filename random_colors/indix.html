@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+        function colorChange() {
+    var colors = ["green", "blue", "red", "brown", "violet"];
+    var element = document.getElementById('2');
+    var currentIndex = 0;
+
+    function changeColor() {
+        element.style.backgroundColor = colors[currentIndex];
+        currentIndex = (currentIndex + 1) % colors.length; // Loop through the colors
+    }
+
+    // Call changeColor initially and then at intervals
+    changeColor();
+    setInterval(changeColor, 1000); // Change color every 1000 milliseconds (1 second)
+}
+
+    </script>
+<body>
+    <header>
+        <div class="head"><h1>Color changing Box</h1></div>
+    </header>
+       
+    <div class="box">
+        <div class="box2">
+            
+            <button type="button" id="1" onclick="colorChange()">click me!!</button>
+            <div class="color-box" id="2">   
+        </div>
+        </div>
+        
+        
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <h3>
+        Q.<br>
+        =>When the HTML button element with the id decreaseBtn is clicked,
+        <br>
+        If the count is odd then decrease the counter value by -1 as shown in the image.<br>
+        If the count is even then decrease the counter value by -2 as shown in the image.
+        <br> <br>
+        =>When the HTML button element with the id increaseBtn is clicked, <br>
+        If the count is odd then increase the counter value by 10 as shown in the image. <br>
+        If the count is even then increase the counter value by 5 as shown in the image.
+        <br> <br>
+        =>When the HTML button element with the id resetBtn is clicked, <br>
+        Set counter value as 0.
+        </h3>
+    <p id="counterValue" class="counter-value" align="center">0</p>
+    <div class="outer1">
+    <div class="outer">
+    <button id="decreaseBtn" class="button" onclick="onDecrement()">DECREASE</button>
+    <button id="resetBtn" class="button" onclick="onReset()">RESET</button>
+    <button id="increaseBtn" class="button" onclick="onIncrement()">INCREASE</button>
+    </div>
+    </div>
+    <script src="index.js"> </script>
+</body>
+</html>
